@@ -16,6 +16,28 @@ A beautiful, responsive profile card app built with React, Tailwind CSS, and sty
 
 ---
 
+## New Features
+
+- 🃏 **Animated Flip Card**: Profile cards now flip on hover, showing user details and social links on the back.
+- 🎨 **Social Icons**: Email, LinkedIn, and GitHub icons are included and styled for both light and dark mode.
+- 🌓 **Improved Dark/Light Mode**: All card elements, including icons and badges, are visible and styled for both themes.
+- 👤 **Avatar & Role Badge**: Each card displays a user avatar and a prominent role badge.
+- ✨ **Fade-in Animation**: Cards animate in with a smooth fade effect.
+
+---
+
+## More Highlights
+
+- 🏆 **Accessibility**: All interactive elements are keyboard accessible and have clear focus states.
+- 🖼️ **Responsive Design**: Cards adapt to all screen sizes, from mobile to desktop.
+- 🛠️ **Easy Customization**: Easily update user data, card size, and styles via React props and styled-components.
+- 🚀 **Performance**: Optimized rendering for smooth animations and fast load times.
+- 🧩 **Component Reusability**: Modular components for easy maintenance and extension.
+- 📝 **Clean Code**: Follows best practices for readability and maintainability.
+- 🌐 **Open Source**: Freely available for use and modification.
+
+---
+
 ## Folder Structure
 
 ```

@@ -40,13 +40,16 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    // Generate 100 mock Indian user profiles
-    const mockUsers = Array.from({ length: 100 }, (_, i) => ({
+    // Generate 40 mock Indian user profiles
+    const mockUsers = Array.from({ length: 40 }, (_, i) => ({
       id: i + 1,
       name: indianNames[i % indianNames.length],
       role: roles[i % roles.length],
       description: descriptions[i % descriptions.length],
-      image: `https://randomuser.me/api/portraits/${i % 2 === 0 ? 'men' : 'women'}/${(i % 50) + 1}.jpg`
+      image: `https://randomuser.me/api/portraits/${i % 2 === 0 ? 'men' : 'women'}/${(i % 50) + 1}.jpg`,
+      email: `user${i + 1}@example.com`,
+      linkedin: `https://linkedin.com/in/user${i + 1}`,
+      github: `https://github.com/user${i + 1}`
     }));
     setUsers(mockUsers);
   }, []);
