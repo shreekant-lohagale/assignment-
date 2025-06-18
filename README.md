@@ -119,6 +119,41 @@ my-profile-app/
 
 ---
 
+## Live Demo
+
+Check out the live app here: [assignment-ochre-six.vercel.app](https://assignment-ochre-six.vercel.app/)
+
+### Demo Screenshot
+
+![Profile Card Demo](./screenshots/profile-card-demo.png)
+
+## Screenshots
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light Mode](./public/Light%20Mode-1.png) | ![Dark Mode](./public/Dark%20Mode-1.png) |
+
+---
+
+## Flip Card Back Example
+
+Below is an example of the profile card when flipped, showing the back side with user details, social icons, and the contact button:
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light Mode](./public/Light%20Mode-2.png) | ![Dark Mode](./public/Dark%20Mode-2.png) |
+
+---
+
+## Search Feature Example
+
+- Use the search bar at the top to quickly filter user profiles by name.
+- The search works in real-time and is case-insensitive.
+- Works seamlessly in both light and dark mode.
+
+![Search Feature Example](./public/dhruv.png)
+---
+
 ## Credits
 
 - UI/UX, code, and concept by **Shreekant Sunil Lohagale**
